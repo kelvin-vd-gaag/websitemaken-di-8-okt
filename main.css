@@ -1,31 +1,33 @@
-body{
-    margin: 0;
-}
-header{
-    background-color: blue;
+nav{
     display: flex;
-    justify-content: center;
-    color: white;
-    height: 400px;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-header a{
-    color: white;
-    border: 1px solid white;
-    padding: 15px;
-    text-decoration: none;
-}
-
-header a:hover{
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    transition: all 500ms;
-}
-
-.call-to-action{
+.bar{
     display: flex;
+}
+
+ul{
+    display: flex;
+    align-items: center;
     gap: 20px;
+}
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover{
+    color: blue;
+}
+
+.sign-and-search{
+    display: flex;
+    align-items: center;
 }
